@@ -21,6 +21,7 @@ class GitCommand {
         for(let i=0; i<wd_property_names.length; i++){
             message += '\n' + wd_property_names[i];
         }
+        // this test needs to pass to push to develop branch
         // return 'fail' // to fail the test case for this feature ..
         return message;
     }
